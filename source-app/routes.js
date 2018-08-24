@@ -1,9 +1,8 @@
 var tuna = require('./controller.js');
 
 module.exports = function(app) {
-	app.get('/', function(req, res, L) {
-		var L = 'Hello World!'
-		tuna.index(req, res, L);
+	app.get('/', function(req, res) {
+		tuna.index(req, res);
 	});
 	app.get('/search', function(req, res) {
 		tuna.search_html(req, res);
