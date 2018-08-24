@@ -18,10 +18,14 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
   
 如有Bug，欢迎提出
 
+<h4>安装及配置</h4>
+
 Step 1:
   ```
   git clone https://github.com/zhazhalaila/hyperledger-simple-app.git
   ```
+ 
+进入source-app目录下
   
 Step 2:
   ```
@@ -51,7 +55,7 @@ Step 3:
 
 配料及食品信息对于同一个Id只能添加一次，中转信息可以添加多次
 
-url & json 格式
+<h4>url & json 格式</h4>
 
 获取食品信息
 
@@ -77,7 +81,7 @@ url & json 格式
  [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
  ```
  
- 重要的文件说明(basic-network文件夹不必要搞懂，因为我自己也不懂，但是这并不影响写项目):
+ <h4>重要的文件说明(basic-network文件夹不必要搞懂，因为我自己也不懂，但是这并不影响写项目):</h4>
  ```
  source-app
      server.js  启动
@@ -90,13 +94,13 @@ url & json 格式
  
  一般来说，路由会在routes.js文件中定义，但是这样不方便路由复用，因此分为两个脚本
  
-参考链接
+<h4>参考链接</h4>
 
-   [Education](https://travis-ci.org/zhazhalaila/hyperledger-simple-app)
+   [Education](https://github.com/hyperledger/education/tree/master/LFS171x)
   
    [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/release-1.1/write_first_app.html)
   
 
-注释说明:
+<h4>注释说明:</h4>
 
-    除了chaincode，其余大部分.js文件都是参照以上参考链接所写，因此注释为英文
+除了chaincode，其余大部分.js文件都是参照以上参考链接所写，因此注释为英文
