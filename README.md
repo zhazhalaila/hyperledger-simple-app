@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/zhazhalaila/hyperledger-simple-app.svg?branch=master)](https://travis-ci.org/zhazhalaila/hyperledger-simple-app)
 
 基于Hyperledger Fabric的一个极简App
+
 在此之前请确保已安装Hyperledger Fabric
+
 Step 1:
   ```
   git clone https://github.com/zhazhalaila/hyperledger-simple-app.git
@@ -28,5 +30,5 @@ Step 3:
 
 访问`http://localhost:8000`
 
-Url 及 Json数据格式
+url 及 json数据格式
 
