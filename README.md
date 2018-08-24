@@ -19,6 +19,7 @@ Step 2:
 Step 3:
   ```
   ./startFabric.sh
+  //若遇到权限问题执行chmod a+x startFabric.sh
   ```
   
  Step 4:
