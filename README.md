@@ -19,7 +19,10 @@ Step 2:
 Step 3:
   ```
   ./startFabric.sh
-  //若遇到权限问题执行chmod a+x startFabric.sh
+  //
+  若遇到权限问题执行chmod a+x startFabric.sh
+  若仍有问题进入basic-network文件夹下执行 chmod start.sh
+  //
   ```
   
  Step 4:
