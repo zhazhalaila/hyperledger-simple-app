@@ -175,7 +175,7 @@ return{
 		}).catch((err) => {
 		    console.error('Failed to invoke successfully :: ' + err);
 		});
-		req.flash('success', 'Successfully!')
+		req.flash('success', '发布成功!')
 		res.redirect('/')
 	},
 	get_tuna: function(req, res, function_name){
