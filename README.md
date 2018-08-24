@@ -25,3 +25,5 @@ Step 3:
    node registerUser.js
    node server.js
    ```
+
+访问http://localhost:8000
