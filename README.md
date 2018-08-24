@@ -26,4 +26,4 @@ Step 3:
    node server.js
    ```
 
-访问http://localhost:8000
+访问`http://localhost:8000`
