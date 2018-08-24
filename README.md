@@ -17,7 +17,7 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
   angularjs 1.4.3
   ```
   
-如果Bug，欢迎提出
+如有Bug，欢迎提出
 
 Step 1:
   ```
