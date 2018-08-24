@@ -1,0 +1,31 @@
+{
+  "name": "source-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fabric-ca-client": "^1.0.2",
+    "fabric-client": "^1.0.2",
+    "grpc": "^1.6.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-flash": "^0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "helmet": "^3.10.0",
+    "multer": "^1.3.0",
+    "body-parser": "latest",
+    "angular": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "author": "",
+  "license": "ISC"
+}

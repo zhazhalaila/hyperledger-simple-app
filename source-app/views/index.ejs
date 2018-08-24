@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/css/index.css" />
+</head>
+<% if (messages.success) { %>
+	<div class="flash flash-success"><%= messages.success %></div>
+<% } %>
+<div class="hand">
+	<div class = "card suitdiamonds" onclick="window.location='/search';">
+		<img src="/images/user-food.jpg" class="image-icon">
+		<p>食品查询</p>
+	</div>
+	<div class = "card suitdiamonds" onclick="window.location='/part_search';">
+		<img src="/images/part_of_food.jpg" class="image-icon">
+		<p>配料查询</p>
+	</div>
+	<div class = "card suitdiamonds" onclick="window.location='/business_search';">
+		<img src="/images/business.png" class="image-icon">
+		<p>中转查询</p>
+	</div>
+	<div class = "card suitdiamonds" onclick="window.location='/form';">
+		<img src="/images/submit.png" class="image-icon">
+		<p>发布商品</p>
+	</div>
+	<div class = "card suitdiamonds" onclick="window.location='/part_form';">
+		<img src="/images/batching.jpg" class="image-icon">
+		<p>添加配料</p>
+	</div>
+	<div class = "card suitdiamonds" onclick="window.location='/transit_form';">
+		<img src="/images/transit.png" class="image-icon">
+		<p>中转商品</p>
+	</div>
+</div>
+</html>

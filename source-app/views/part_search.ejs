@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<link rel="stylesheet" type="text/css" href="css/search.css" />
+		<script src="https://ajax.lug.ustc.edu.cn/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://ajax.lug.ustc.edu.cn/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	</head>
+	<body ng-app="application" ng-controller="appController">
+		<div class="form-wrapper">
+			<input type="text" id="search" placeholder="食品编号..." ng-model="query_id" required>
+			<input type="submit" value="搜索" id="submit" ng-click="queryPart()">
+		</div>
+		<table cellspacing="0" id="part_source">
+			<tr>
+				<th>食品ID</th>
+				<th>食品名称</th>
+			</tr>
+			<tr ng-repeat="part in part_source">
+				<td>{{part.IngID}}</td>
+				<td>{{part.IngName}}</td>
+        		</tr>
+		</table>
+	</body>
+	<script type="text/javascript" src="/js/app.js"> </script>
+</html>
