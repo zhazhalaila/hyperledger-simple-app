@@ -18,3 +18,10 @@ Step 3:
   ```
   ./startFabric.sh
   ```
+  
+ Step 4:
+   ```
+   node registerAdmin.js
+   node registerUser.js
+   node server.js
+   ```
