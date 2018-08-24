@@ -4,7 +4,7 @@
 
 基于Hyperledger Fabric的一个极简App
 
-###chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
+chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
 在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.1)
 
@@ -49,7 +49,7 @@ Step 3:
 
 在填写表单信息时，没有做过多的处理，因此每个选项都要尽量填写（配料的表单可以不填写完）
 
-###url & json 格式
+url & json 格式
 
 获取食品信息
 
