@@ -90,9 +90,9 @@ url & json 格式
  
 参考链接
 
-    [Education](https://travis-ci.org/zhazhalaila/hyperledger-simple-app)
+   [Education](https://travis-ci.org/zhazhalaila/hyperledger-simple-app)
   
-    [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/release-1.1/write_first_app.html)
+   [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/release-1.1/write_first_app.html)
   
 
 注释说明:
