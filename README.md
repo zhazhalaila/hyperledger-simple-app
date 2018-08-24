@@ -4,7 +4,15 @@
 
 基于Hyperledger Fabric的一个极简App
 
+chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
+
 在此之前请确保已安装Hyperledger Fabric
+
+库版本:
+  npm 5.6.0
+  node.js v8.11.3
+  hyperledger fabric v1.1
+  angularjs 1.4.3
 
 Step 1:
   ```
@@ -19,12 +27,10 @@ Step 2:
 Step 3:
   ```
   ./startFabric.sh
-  //
   若遇到权限问题执行chmod a+x startFabric.sh
   若仍有问题进入basic-network文件夹下执行 chmod start.sh
-  //
   ```
-  
+
  Step 4:
    ```
    node registerAdmin.js
@@ -34,5 +40,37 @@ Step 3:
 
 访问`http://localhost:8000`
 
-url 及 json数据格式
+在填写表单信息时，没有做过多的处理，因此每个选项都要尽量填写（配料的表单可以不填写完）
 
+url & json 格式
+
+获取食品信息
+
+`http://localhost:8000/source/:id`
+
+```
+{"FoodName":"Apple","FoodSpec":"123456","FoodMFGDate":"2018-8-24","FoodEXPDate":"10day","FoodLOT":"123","FoodQSID":"456","FoodMFRSName":"lalala","FoodProPrice":"2","FoodProPlace":"zhengzhou"}
+```
+
+获取食品配料信息
+
+`http://localhost:8000/part/:id`
+
+ ```
+ [{"IngID":"1","IngName":"a"},{"IngID":"2","IngName":"b"},{"IngID":"3","IngName":"c"},{"IngID":"4","IngName":"d"},{"IngID":"5","IngName":"e"}]
+ ```
+ 
+ 获取交易（运输）信息
+ 
+ `http://localhost:8000/transit/:id`
+ 
+ ```
+ [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
+ ```
+ 
+参考链接
+
+  [Education](https://travis-ci.org/zhazhalaila/hyperledger-simple-app)
+  
+  [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/release-1.1/write_first_app.html)
+  
