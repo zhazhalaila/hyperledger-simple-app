@@ -74,3 +74,7 @@ url & json 格式
   
   [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/release-1.1/write_first_app.html)
   
+
+注释说明:
+
+  除了chaincode，其余大部分.js文件都是参照以上参考链接所写，因此注释为英文
