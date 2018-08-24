@@ -6,14 +6,13 @@
 
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
-在此之前请确保已安装Hyperledger Fabric
+在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.1)
 
 库版本:
 
   ```
   npm 5.6.0
   node.js v8.11.3
-  hyperledger fabric v1.1
   angularjs 1.4.3
   ```
   
@@ -46,6 +45,8 @@ Step 3:
 
 访问`http://localhost:8000`
 
+由于没有初始化信息，因此需要先提交表单信息才可以查询出信息
+
 在填写表单信息时，没有做过多的处理，因此每个选项都要尽量填写（配料的表单可以不填写完）
 
 url & json 格式
@@ -73,6 +74,19 @@ url & json 格式
  ```
  [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
  ```
+ 
+ 重要的文件说明(basic-network文件夹不必要搞懂，因为我自己也不懂，但是这并不影响写项目):
+ ```
+ source-app
+     server.js  启动
+     routes.js  定义路由
+     controller.js  路由
+ chaincode
+     source-app
+         source-app.go chaincode
+ ```
+ 
+ 一般来说，路由会在routes.js文件中定义，但是这样不方便路由复用，因此分为两个脚本
  
 参考链接
 
