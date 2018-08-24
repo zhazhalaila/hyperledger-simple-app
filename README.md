@@ -81,20 +81,6 @@ Step 3:
  [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
  ```
  
- <h4>重要的文件说明(basic-network文件夹不必要搞懂，因为我自己也不懂，但是这并不影响写项目):</h4>
- 
- ```
- source-app
-     server.js  启动
-     routes.js  定义路由
-     controller.js  路由
- chaincode
-     source-app
-         source-app.go chaincode
- ```
- 
- 一般来说，路由会在routes.js文件中定义，但是这样不方便路由复用，因此分为两个脚本
- 
 <h4>参考链接</h4>
 
    [Education](https://github.com/hyperledger/education/tree/master/LFS171x)
