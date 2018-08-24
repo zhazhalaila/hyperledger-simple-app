@@ -10,14 +10,13 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
 库版本:
 
+  ```
   npm 5.6.0
-  
   node.js v8.11.3
-  
   hyperledger fabric v1.1
-  
   angularjs 1.4.3
-
+  ```
+  
 如果Bug，欢迎提出
 
 Step 1:
