@@ -83,6 +83,18 @@ Get transit information
 [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
 ```
 
+<h4>Deployment on server</h4>
+
+Just need change `server.js` script
+
+```javascript
+var port = process.env.PORT || 3389; //port should change to your server security port
+
+app.listen(port, '0.0.0.0', function(){
+  console.log("Live on port: " + port);
+});
+```
+
 <h4>Reference</h4>
 
 [Education](https://github.com/hyperledger/education/tree/master/LFS171x)
