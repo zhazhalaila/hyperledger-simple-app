@@ -85,6 +85,18 @@ Step 3:
  [{"LogDepartureTm":"14:20","LogArrivalTm":"16:40","LogMission":"Store","LogDeparturePl":"zhengzhou","LogDest":"wuhan","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"},{"LogDepartureTm":"16:50","LogArrivalTm":"18:50","LogMission":"Store","LogDeparturePl":"wuhan","LogDest":"guangzhou","LogToSeller":"lalala","LogStorageTm":"1day","LogMOT":"truck","LogCopName":"shunfeng","LogCost":"10"}]
  ```
  
+ <h4>部署在服务器上</h4>
+ 
+ 仅需修改server.js文件最后几行代码
+ 
+ ```javascript
+var port = process.env.PORT || 8000; //端口修改为服务器的安全组端口
+
+app.listen(port, '0.0.0.0', function(){
+  console.log("Live on port: " + port);
+});
+ ```
+ 
  <h4>重要的文件说明(basic-network文件夹不必要搞懂，因为我自己也不懂，但是这并不影响写项目):</h4>
  
  ```
