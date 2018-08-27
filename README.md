@@ -4,6 +4,8 @@
 
 基于Hyperledger Fabric的一个极简App
 
+[English Docment](https://github.com/zhazhalaila/hyperledger-simple-app/blob/master/EN_DOC.md)
+
 [在线Demo](http://120.27.18.178:3389/) 最好使用PC端访问（没有针对手机端界面进行设置，已填过编号为1001的食品信息，可以查着玩玩，没有对web安全进行过多配置，请手下留情，服务器到期时间2018-10-5）
 
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
