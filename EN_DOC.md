@@ -6,8 +6,6 @@ A simple web app base on Hyperledger Fabric.
 
 @[DevilExileSu](https://github.com/DevilExileSu) provide the chaincode.
 
-[Online Demo](http://120.27.18.178:3389/) Please use PC browse this website.(For smart mobilephone i don't config, so it's very ugly. I provide a food which ID is 1001. Please don't attach this website, beause i can not fix it.)
-
 At the beginning, please sure you have installed Hyperledger Fabric v1.1.
 
 <h4>Libraries</h4>
