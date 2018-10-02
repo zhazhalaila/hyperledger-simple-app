@@ -6,8 +6,6 @@
 
 [English Docment](https://github.com/zhazhalaila/hyperledger-simple-app/blob/master/EN_DOC.md)
 
-[在线Demo](http://120.27.18.178:3389/) 最好使用PC端访问（没有针对手机端界面进行设置，已填过编号为1001的食品信息，可以查着玩玩，没有对web安全进行过多配置，请手下留情，服务器到期时间2018-10-5）
-
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
 在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.1)
@@ -121,3 +119,7 @@ app.listen(port, '0.0.0.0', function(){
 <h4>注释说明:</h4>
 
 除了chaincode，其余大部分.js文件都是参照以上参考链接所写，因此注释为英文
+
+<h4>联系方式</h4>
+
+如果有想法一起写项目的小伙伴请发email到1176694275@qq.com
