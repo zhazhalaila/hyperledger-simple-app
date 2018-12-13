@@ -13,8 +13,8 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 库版本:
 
   ```
-  npm 5.6.0
-  node.js v8.11.3
+  npm 5.6.0 (建议大于或等于此版本)
+  node.js v8.11.3 (建议大于或等于此版本)
   angularjs 1.4.3
   ```
   
