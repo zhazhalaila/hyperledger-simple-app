@@ -23,14 +23,14 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 <h4>安装及配置</h4>
 
 Step 1:
-  ```
+  ```shell
   git clone https://github.com/zhazhalaila/hyperledger-simple-app.git
   ```
  
 进入source-app目录下
   
 Step 2:
-  ```
+  ```js
   npm install
   //安装时速度可能会很慢，静等即可
   ```
@@ -63,7 +63,7 @@ Step 3:
 
 `http://localhost:8000/source/:id`
 
-```
+```json
 {"FoodName":"Apple","FoodSpec":"123456","FoodMFGDate":"2018-8-24","FoodEXPDate":"10day","FoodLOT":"123","FoodQSID":"456","FoodMFRSName":"lalala","FoodProPrice":"2","FoodProPlace":"zhengzhou"}
 ```
 
